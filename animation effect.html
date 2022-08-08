@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+body {
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+background:#000;
+}
+/*
+.loader{
+position:relative;
+width:200px;
+height:200px;
+border-radius:50% 0px;
+background-image:linear-gradient(45deg,transparent,transparent 40% , #e5f403);
+animation:animate 2s linear infinite;
+}
+@keyframes animate{
+0%{
+transform:rotate(0deg);
+filter:hue-rotate(0deg);
+}
+100%{
+transform:rotate(360deg);
+filter:hue-rotate(360deg);
+}
+
+}
+.loader:before{
+content:" ";
+position:absolute;
+top:6px;
+left:6px;
+bottom:6px;
+right:6px;
+background:#000;
+border-radius:50% 0px;
+z-index:1000;
+
+}
+.loader:after{
+content:" ";
+position:absolute;
+top:0px;
+left:0px;
+bottom:0px;
+right:0px;
+background:#000;
+border-radius:50% 0px;
+z-index:1000;
+z-index:1;
+background-image:linear-gradient(45deg,transparent,transparent 40% , #e5f403);
+
+filter:blur(30px);
+
+}*/
+
+#o{
+background-color:#000;
+border:4px #000 solid;
+width:200px;
+height:200px;
+filter:hue-rotate(360deg);
+transform:rotate(0deg);
+filter:blur(5px);
+background-image:linear-gradient(45deg,transparent,transparent 40% ,#fff);
+border-radius:45%;
+}
+</style>
+</head>
+<body>
+<div class="loader">
+<div id="o"></div>
+
+</div>
+
+</body>
+</html> 
